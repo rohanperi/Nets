@@ -10,10 +10,10 @@ import android.view.ViewGroup;
  * Created by Rohan on 11/5/2016.
  */
 
-public class Menu extends Fragment {
+public class Options extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.menu, container, false);
+        return inflater.inflate(R.layout.options, container, false);
     }
 }
